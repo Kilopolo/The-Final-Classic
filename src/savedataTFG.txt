@@ -1,0 +1,9 @@
+PLAYERNAME / GAME REACHED / POINTS ;
+adw / wall / 12 ;
+csedec / pong / 9 ;
+ewtwer / pong / 8 ;
+CBDE / wall / 4 ;
+lawdlkadwoawd / pong / 3 ;
+df / pong / 2 ;
+lao / pong / 1 ;
+sfghjk / pong / 0 ;

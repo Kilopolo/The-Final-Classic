@@ -1,0 +1,61 @@
+package v3;
+
+/**
+ * Clase Point 'Punto' que sirve para darle valores a un punto de la serpiente.
+ * 
+ * Declaramos una posicion x,y ya que es lo unico que va a ser necesitado por cada punto.
+ * 
+ * @author p.diaz
+ *
+ */
+public class Point {
+
+	
+	private int x, y;
+
+	/**
+	 * Constructor que nos inicializa la posicion del punto a 0.
+	 */
+	public Point() {
+		x = 0;
+		y = 0;
+	}
+
+	/**
+	 * Constructor que nos permite inicializar los puntos x,y en el valor deseado.
+	 * 
+	 * @param x
+	 * @param y
+	 */
+	public Point(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+
+	public int getX() {
+		return x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+
+	@Override
+	public String toString() {
+		return "Point [x=" + x + ", y=" + y + "]";
+	}
+
+	public void imprimir() {
+		System.out.println("Point [x=" + x + ", y=" + y + "]");
+
+	}
+
+}
